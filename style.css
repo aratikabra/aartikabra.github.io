@@ -1,0 +1,106 @@
+/* Write some CSS below */
+img {
+	width: 500px;
+	align-content: center;
+}
+h1 {
+	font-family: Overpass;
+	font-weight: bold;
+}
+h1,h3{
+	text-align: center;
+}
+
+h2{
+	text-align: left;
+	font-size: 28px;
+}
+a{
+	font-weight: bold;
+	text-decoration: none;
+	color: #0C1FC6;
+}
+body{
+	color: #38686A;
+	text-align: center;
+	background-color: white;
+	/*background-image: "./images/background.jpg";*/
+	padding: 0px 100px;
+
+	/*background-image: url("./images/languages.jpg")*/
+	/*background-image: "./images/women_code.jpeg";*/
+}
+h3{
+	margin:10;
+	text-align: left;
+}
+
+a:hover{
+	color: red;
+}
+p {
+	font-size: 20px;
+	font-family: serif;
+	color: #1B1725;
+	font-weight: bold;
+}
+
+#banner {
+	text-align: center;
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("images/background.jpg");
+	padding: 150px 0;
+	background-size: cover;
+	background-position: center;
+
+}
+#banner p,h1{
+	color: white;
+	font-style: italic;
+}
+
+.btn-blue {
+	padding: 20px 40px;
+	margin: 30px;
+	/*border-radius: 20px;*/
+	align-self: center;
+	background-color: blue;
+	transition: .3s;
+	box-shadow: 3px 3px 3px gray;
+	color: white;
+}
+
+.btn-blue:hover {
+	color: red;
+	
+}
+
+.card {
+	/*background-color: white;*/
+	box-shadow: 0 0 16px rgba(0,0,0,0.1);
+	border-radius: 3px;
+	width: 200px;
+	text-align: center;
+	color: #38686A;
+	align-content: center;
+	align-self: center;
+}
+
+.card img{
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+}
+
+h4{
+	color: black;
+}
+
+#footer p{
+	text-align: right;
+	font-family: 'Barriecito', cursive;
+}
+
+.cards{
+	display: flex;
+	justify-content: space-around;
+}
